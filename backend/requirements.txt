@@ -1,7 +1,7 @@
 fastapi
 pydantic
 joblib
-pandass
+pandas
 scikit-learn
 uvicorn
 gunicorn
