@@ -14,7 +14,7 @@ def read_data(path):
 
 
 def eda(df):
-    df = df.drop(['car_ID', 'CarName'], axis=1)  # Return new df
+    df = df.drop(['car_ID', 'CarName'], axis=1)
     return df
 
 

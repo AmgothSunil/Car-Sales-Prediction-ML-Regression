@@ -61,6 +61,6 @@ if st.button("Predict Price"):
 
     if response.status_code == 200:
         price = response.json()["predicted_price"]
-        st.success(f"💰 Predicted Car Price: ${price}")
+        st.success(f"Predicted Car Price: ${price}")
     else:
         st.error("Error connecting to API")
