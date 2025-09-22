@@ -57,7 +57,7 @@ if st.button("Predict Price"):
     }
 
     # Call FastAPI
-    response = requests.post("http://127.0.0.1:8000/predict", json=features)
+    response = requests.post("https://car-sales-prediction-ml-regression.onrender.com/predict", json=features)
 
     if response.status_code == 200:
         price = response.json()["predicted_price"]
